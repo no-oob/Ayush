@@ -11,13 +11,13 @@ namespace _1Tutorial3EX2
         public static void Main(string[] args)
         {
             List<String> mylist = new List<String>();
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "Tesla" };
             for (int j = 0; j < cars.Length; j++)
             {
                 mylist.Add(cars[j]);
                 
             }
-            Console.WriteLine("Cars List:");
+            Console.WriteLine("Cars Lists:");
             foreach (String items in mylist)
             {
             
